@@ -6,11 +6,15 @@ from chromadb.utils import embedding_functions
 # Crear cliente persistente
 client = chromadb.PersistentClient(path="./chroma_db")
 
-# Embeddings
-embedding_function = embedding_functions.DefaultEmbeddingFunction()
+# Embeddings con SentenceTransformer
 
-# Crear colección
-collection = client.get_or_create_collection(
+# atencion is all you  need, pray for it
+embedding_function = embedding_functions.SentenceTransformerEmbeddingFunction(
+    model_name="all-MiniLM-L6-v2"
+)
+
+
+collection = client.create_collection(
     name="logitrans_docs",
     embedding_function=embedding_function
 )
