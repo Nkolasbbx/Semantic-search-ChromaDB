@@ -1,0 +1,3 @@
+Los camiones frigoríficos deben mantener una temperatura constante de -20 grados Celsius para carga congelada.
+Si la alarma de temperatura se activa, verifique que las puertas traseras estén selladas herméticamente.
+El sistema de enfriamiento utiliza un compresor eléctrico que debe ser inspeccionado antes de cruzar el desierto.
