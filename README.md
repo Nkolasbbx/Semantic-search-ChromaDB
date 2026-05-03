@@ -7,4 +7,4 @@ pip
 pip install chromadb
 
 # Cómo ejecutar
-python main.py --input-folder datos_ejemplo/
+python script.py --input-folder datos_ejemplo/
