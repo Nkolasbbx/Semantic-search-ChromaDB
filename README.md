@@ -1,5 +1,6 @@
 # Requisitos
 Python 3.10
+\
 pip
 
 # Instalar dependencias:
